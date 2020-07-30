@@ -5,6 +5,8 @@ phases:
     commands:
       - echo Nothing to do in the pre_build phase...
       - ls -ltr
+      - chmod 755 invoke.sh
+      - ls -ltr
       - invoke.sh
   build:
     commands:
