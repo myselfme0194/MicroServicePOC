@@ -7,7 +7,7 @@ phases:
       - ls -ltr
       - chmod 755 invoke.sh
       - ls -ltr
-      - invoke.sh
+      - /bin/bash invoke.sh 
   build:
     commands:
       - echo Build started on `date`
