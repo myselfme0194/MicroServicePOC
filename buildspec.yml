@@ -7,8 +7,8 @@ phases:
             - 'apt-get install -y git'
   pre_build:
     commands:
-	  - echo ......git version..........
-	  - git --version
+      - echo ......git version..........
+      - git --version
       - echo Nothing to do in the pre_build phase...
       - ls -ltr
       - chmod 755 invoke.sh
